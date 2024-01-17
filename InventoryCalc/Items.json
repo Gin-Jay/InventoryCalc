@@ -1,0 +1,38 @@
+[
+  {
+    "Id": 0,
+    "Name": "NIPAZ",
+    "Description": "Ipsum proident dolor reprehenderit qui sit eu nulla aliqua sit est aliqua eu. Labore eu laboris quis est voluptate culpa duis adipisicing non tempor amet nulla incididunt. Sit elit aute sunt aliquip qui aliqua anim voluptate esse quis non. Ut eiusmod ut dolor occaecat sint pariatur consectetur nulla. Labore pariatur anim exercitation culpa eiusmod reprehenderit magna in laboris incididunt aliqua proident nisi.\r\n",
+    "Weight": 0.915
+  },
+  {
+    "Id": 1,
+    "Name": "KIDGREASE",
+    "Description": "Veniam occaecat qui exercitation sint. Velit sit est enim fugiat elit duis proident ut est in deserunt nulla. Sunt sit laborum reprehenderit dolore deserunt dolor anim exercitation ullamco ea nisi adipisicing in. Do ipsum aliqua ad est commodo nulla do tempor eu sint ad exercitation. Ullamco nostrud officia nulla pariatur ex culpa id voluptate excepteur cupidatat et esse fugiat pariatur. Exercitation dolore nulla mollit ut. Ipsum aliquip culpa deserunt duis ea.\r\n",
+    "Weight": 5.465
+  },
+  {
+    "Id": 2,
+    "Name": "ANOCHA",
+    "Description": "Sint sit veniam anim reprehenderit laboris. Pariatur deserunt esse enim ex culpa. Ad labore reprehenderit tempor reprehenderit.\r\n",
+    "Weight": 3.026
+  },
+  {
+    "Id": 3,
+    "Name": "FROSNEX",
+    "Description": "Sit qui ut qui exercitation duis dolore non sit non do fugiat laboris. Pariatur culpa aliqua ut non labore qui officia amet ullamco. Labore fugiat esse minim sit velit Lorem duis veniam non irure labore proident. Veniam occaecat fugiat officia adipisicing quis ad deserunt sit aute fugiat ipsum irure laboris sunt.\r\n",
+    "Weight": 1.201
+  },
+  {
+    "Id": 4,
+    "Name": "FLEXIGEN",
+    "Description": "Amet exercitation exercitation deserunt aliquip do aliquip est nostrud in et ad. Amet sunt aliqua ut incididunt adipisicing nulla dolore. Fugiat tempor ea veniam ipsum dolor enim culpa cupidatat nostrud nisi nisi consectetur nisi et. Ullamco nostrud in eu cillum enim quis sint.\r\n",
+    "Weight": 6.673
+  },
+  {
+    "Id": 5,
+    "Name": "ORBALIX",
+    "Description": "Elit aute cillum tempor aute. Nostrud cupidatat do dolor aliquip nostrud commodo. Elit adipisicing aliqua laborum ex nostrud enim Lorem occaecat excepteur elit. Ullamco sint incididunt ex est nostrud occaecat quis velit fugiat ea cillum labore id nisi. Officia in exercitation velit aliquip aliquip pariatur ex.\r\n",
+    "Weight": 4.863
+  }
+]

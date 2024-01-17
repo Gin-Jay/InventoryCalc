@@ -30,7 +30,11 @@
                     <Label x:Name="label1" Content="Список доступных вещей" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
                     <Label x:Name="label2" Content="Список добавленных вещей" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="0" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
                     <Label x:Name="label3" Content="Итог" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="0" Grid.Row="5" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
-                    <Label x:Name="label4" Content="0" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
+                    <Label x:Name="labelSummaryWeight" Content="0" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
+                    <DataGrid x:Name="dataGridItemList" Grid.Column="0" Grid.Row="1" Grid.RowSpan="4" FontSize="12" Loaded="dataGrid_Loaded">   <!--d:ItemsSource="{d:SampleData ItemCount=5}"-->
+
+                    </DataGrid>
+                    <!--<ListBox x:Name="listItems" Grid.Column="0" Grid.Row="1" Grid.RowSpan="4" d:ItemsSource="{d:SampleData ItemCount=5}"/>-->
 
 
                 </Grid>
