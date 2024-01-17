@@ -5,8 +5,56 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:InventoryCalc"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="SCP" Height="450" Width="800">
     <Grid>
+        <TabControl x:Name="tabControl" FontSize="14" FontWeight="Bold" Background="#FF969191" BorderBrush="#FF464646">
+            <TabItem Header="Инвентарь" Width="200" Height="30">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
 
+                        <RowDefinition Height="0.1*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.1*"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.7*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+
+                    <Label x:Name="label1" Content="Список доступных вещей" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
+                    <Label x:Name="label2" Content="Список добавленных вещей" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="0" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
+                    <Label x:Name="label3" Content="Итог" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="0" Grid.Row="5" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
+                    <Label x:Name="label4" Content="0" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Grid.Column="1" Grid.Row="5" FontSize="14" FontWeight="Bold" Foreground="#FF373333"/>
+
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="Персонаж" Width="200" Height="30">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition Height="0.1*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.225*"></RowDefinition>
+                        <RowDefinition Height="0.1*"></RowDefinition>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition Width="0.3*"></ColumnDefinition>
+                        <ColumnDefinition Width="0.7*"></ColumnDefinition>
+
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
